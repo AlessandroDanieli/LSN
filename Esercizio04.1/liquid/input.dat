@@ -1,0 +1,56 @@
+###### Simulation parameters ######
+108			# Number of particles [108]
+25000		# Simulation Steps
+25			# Frame output frequency (it should be a divisor of the number of Simulation Steps) [if 0, output disabled]
+10			# Measure output frequency (it should be a divisor of the number of Simulation Steps) [if 0, output disabled]
+125			# Number of Blocks (data blocking for the output measures. This must be a divisor of Nsteps/MeasureFrequency = Nmeasures)
+1000		# Current step (screen output) frequency 
+###### Equilibration cycles ######
+20			# Number of equilibration cycles
+1000		# Number of steps of each cycle (using the method Move())
+###### System parameters ######
+1.1			# Temperature
+0.8			# Density
+2.5			# Cutoff radius
+0.005		# Delta t
+###### Other options ######
+false 		# If true, read two spatial configurations at times t-dt, t (respectively from the files "old.0" and "old.final")
+			# If false, read the initial configuration from "config.0" and set random speeds
+
+# SOLID 
+0.8			# Temperature
+1.1			# Density
+2.2			# Cutoff radius
+0.005		# Delta t
+# LIQUID 
+1.1			# Temperature
+0.8			# Density
+2.5			# Cutoff radius
+0.005		# Delta t
+# GAS 
+1.2			# Temperature
+0.05		# Density
+5.0			# Cutoff radius
+0.005		# Delta t
+
+
+### ### Original setup, in case of accidental removal of lines of code ### ###
+
+###### Simulation parameters ######
+108			# Number of particles [108]
+25000		# Simulation Steps
+0			# Frame output frequency (it should be a divisor of the number of Simulation Steps) [if 0, output disabled]
+10			# Measure output frequency (it should be a divisor of the number of Simulation Steps) [if 0, output disabled]
+100			# Number of Blocks (data blocking for the output measures. This must be a divisor of Nsteps/MeasureFrequency = Nmeasures)
+1000		# Current step (screen output) frequency 
+###### Equilibration cycles ######
+20			# Number of equilibration cycles
+4000		# Number of steps of each cycle (using the method Move())
+###### System parameters ######
+1.2			# Temperature
+0.05		# Density
+5.0			# Cutoff radius
+0.005		# Delta t
+###### Other options ######
+true 		# If true, read two spatial configurations at times t-dt, t (respectively from the files "old.0" and "old.final")
+			# If false, read the initial configuration from "config.0" and set random speeds
