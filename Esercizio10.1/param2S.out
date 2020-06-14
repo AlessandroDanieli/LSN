@@ -1,0 +1,4 @@
+#PointDistribution: Square
+#Norm: 2
+#TemperatureRange: 0.005 : 0.5
+#TemperatureCycles: 14

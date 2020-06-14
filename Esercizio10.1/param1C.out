@@ -1,0 +1,4 @@
+#PointDistribution: Circumference
+#Norm: 1
+#TemperatureRange: 0.005 : 0.5
+#TemperatureCycles: 14

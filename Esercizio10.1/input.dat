@@ -1,0 +1,8 @@
+2 					# Number of spatial dimensions
+32					# Number of points of the path
+24000				# Number of mutation steps [~10000 or higher]
+2					# p of L^p norm [1 | 2]
+s 					# Distribution of the points ['s' = square || 'c' = circumference]
+1 					# Radius or Edge of the region
+0.005:0.5:14		# Tmin:Tmax:Steps (Uses <Steps> T values in the range [Tmin, Tmax]). 
+

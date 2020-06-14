@@ -1,0 +1,9 @@
+#SpaceDimension: 2
+#NumberOfPoints: 6
+1 0
+0 1
+-1 1
+-1 -1
+0 -1
+-1 2
+
