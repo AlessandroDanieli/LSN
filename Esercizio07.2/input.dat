@@ -1,0 +1,31 @@
+###### Simulation parameters ######
+108			# Number of particles
+500 		# Number of blocks
+1000	 	# Block length (number of steps for each block)
+120			# Number of bins (g(r) sampling)
+###### System parameters ######
+1.2			# Temperature
+0.05		# Density
+5			# Cutoff Radius
+6 			# Metropolis Range of motion 
+
+
+
+
+## SOLID ##
+0.8			# Temperature
+1.1			# Density
+2.2			# Cutoff Radius
+0.113 		# Metropolis Range of motion
+## LIQUID ##
+1.1			# Temperature
+0.8 		# Density
+2.5			# Cutoff Radius
+0.21		# Metropolis Range of motion
+## GAS ##
+1.2			# Temperature
+0.05		# Density
+5			# Cutoff Radius
+6 			# Metropolis Range of motion 
+
+
