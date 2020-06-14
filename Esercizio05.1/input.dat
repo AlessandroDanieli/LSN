@@ -1,0 +1,12 @@
+240000                     # Sample size
+300                        # Number of blocks (blocking method)
+220000       240000        # Range of the sample to be saved on file
+40000                      # Calibration steps (if the corresponding boolean value is true, see below)
+_______________________________________________________________________________________________________________________________
+######  Orbitals  ######
+3                          # Number of orbitals to be computed
+_______________________________________________________________________________________________________________________________
+Z    | n    | l    | m    | Uniform radius    | Gaussian radius    | Calibration [true|false] | X start   | Y start   | Z start
+1    | 1    | 0    | 0    | 1.22              | 0.74               | false                    | 0.8       | 0.3       | 1.5       
+1    | 2    | 1    | 0    | 2.94              | 1.84               | false                    | 1         | 1         | 5         
+2    | 6    | 5    | -3   | 7.6               | 5.08               | true                     | 3         | 5         | 19        
