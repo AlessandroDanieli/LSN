@@ -1,0 +1,45 @@
+------ Simulation parameters ------
+100000			# Sample size
+200				# Number of blocks
+100				# Block length
+7				# Mean
+6.2				# Sigma
+0.44			# Starting point x0
+2.7				# Metropolis range of motion (sampling of Psi^2)
+------ Minimization parameters ------
+true 			# Start minimization process
+50000			# Minimization sample size (might be less than the actual sample size, in order to reduce the computational time)
+8				# Total number of cycles
+6				# Number of sub-cycles for the minimization of [Mean]
+7				# Number of sub-cycles for the minimization of [Sigma]
+0.5				# Move step of [Mean]
+0.4				# Move step of [Mean]
+1.4				# Scaling factor of the move step for each total cycle (-> gives the starting move step of the sub-cycles)
+1.4				# Scaling factor of each sub-cycle for the minimization of [Mean]
+1.4				# Scaling factor of each sub-cycle for the minimization of [Sigma]
+
+
+
+
+
+
+###### BACKUP ######
+------ Simulation parameters ------
+50000			# Sample size
+100				# Number of blocks
+40				# Block length
+2				# Mean
+4				# Sigma
+0.5				# Starting point x0
+2.7				# Metropolis range of motion (sampling of Psi^2)
+------ Minimization parameters ------
+true 			# Start minimization process
+25000			# Minimization sample size (might be less than the actual sample size, in order to reduce the computational time)
+10				# Total number of cycles
+5				# Number of sub-cycles for the minimization of [Mean]
+5				# Number of sub-cycles for the minimization of [Sigma]
+0.42			# Move step of [Mean]
+0.4				# Move step of [Mean]
+1.4				# Scaling factor of the move step for each total cycle (-> gives the starting move step of the sub-cycles)
+1.5				# Scaling factor of each sub-cycle for the minimization of [Mean]
+1.5				# Scaling factor of each sub-cycle for the minimization of [Sigma]
