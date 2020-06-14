@@ -1,0 +1,8 @@
+2 				# Number of spatial dimensions
+32				# Number of points of the path
+6000 			# Number of individuals in each generation (~5000)
+160				# Number of generations (~150 or higher)
+s 				# Distribution of the points ['s' = square || 'c' = circumference]
+1 				# Radius or Edge of the region
+1 				# p of L^p norm [1 | 2]
+

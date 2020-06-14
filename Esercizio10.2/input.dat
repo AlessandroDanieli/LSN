@@ -1,0 +1,10 @@
+2 				# d, number of spatial dimensions
+32	  			# Nx, number of points of the path
+100     		# Npop, number of individuals in each generation (~100)
+120				# Ngen, number of generations (~100 or higher)
+10				# Nmigr, number of generations between nodes' exchanges (it must be a divisor of Ngen!)
+s 				# Distribution of the points ['s' = square || 'c' = circumference]
+2 				# p of L^p norm [1 | 2]
+1 				# Radius or Edge of the region
+
+
